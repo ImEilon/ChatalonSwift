@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44082A5F3E877EF63791412 /* Pods_Chatalon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD405664754CC13EA6004226 /* Pods_Chatalon.framework */; };
+		FE30B865201B7D1E0088CFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30B864201B7D1E0088CFEA /* AppDelegate.swift */; };
+		FE30B867201B7D1E0088CFEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30B866201B7D1E0088CFEA /* ViewController.swift */; };
+		FE30B86A201B7D1E0088CFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE30B868201B7D1E0088CFEA /* Main.storyboard */; };
+		FE30B86D201B7D1E0088CFEA /* Chatalon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE30B86B201B7D1E0088CFEA /* Chatalon.xcdatamodeld */; };
+		FE30B86F201B7D1E0088CFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE30B86E201B7D1E0088CFEA /* Assets.xcassets */; };
+		FE30B872201B7D1E0088CFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE30B870201B7D1E0088CFEA /* LaunchScreen.storyboard */; };
+		FE30B87A201B7DF50088CFEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE30B879201B7DF50088CFEA /* GoogleService-Info.plist */; };
+		FEBC60392028EC2D007672A8 /* DbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC60382028EC2D007672A8 /* DbService.swift */; };
+		FEF63085202CA45C00953702 /* ProfilesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF63084202CA45C00953702 /* ProfilesTable.swift */; };
+		FEF63087202CA82A00953702 /* DaChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF63086202CA82A00953702 /* DaChat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		708DA72338674D054733DDED /* Pods-Chatalon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatalon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatalon/Pods-Chatalon.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2BCC4DDCED7C968FE868E0 /* Pods-Chatalon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatalon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatalon/Pods-Chatalon.release.xcconfig"; sourceTree = "<group>"; };
+		DD405664754CC13EA6004226 /* Pods_Chatalon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatalon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE30B861201B7D1E0088CFEA /* Chatalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE30B864201B7D1E0088CFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE30B866201B7D1E0088CFEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE30B869201B7D1E0088CFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE30B86C201B7D1E0088CFEA /* Chatalon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chatalon.xcdatamodel; sourceTree = "<group>"; };
+		FE30B86E201B7D1E0088CFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE30B871201B7D1E0088CFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE30B873201B7D1E0088CFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE30B879201B7DF50088CFEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEBC60382028EC2D007672A8 /* DbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbService.swift; sourceTree = "<group>"; };
+		FEF63084202CA45C00953702 /* ProfilesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesTable.swift; sourceTree = "<group>"; };
+		FEF63086202CA82A00953702 /* DaChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaChat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE30B85E201B7D1E0088CFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44082A5F3E877EF63791412 /* Pods_Chatalon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BC69FC21F9A9698FE3B687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				708DA72338674D054733DDED /* Pods-Chatalon.debug.xcconfig */,
+				AA2BCC4DDCED7C968FE868E0 /* Pods-Chatalon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B49BE35B6E89EE48542A138D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD405664754CC13EA6004226 /* Pods_Chatalon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE30B858201B7D1E0088CFEA = {
+			isa = PBXGroup;
+			children = (
+				FE30B863201B7D1E0088CFEA /* Chatalon */,
+				FE30B862201B7D1E0088CFEA /* Products */,
+				60BC69FC21F9A9698FE3B687 /* Pods */,
+				B49BE35B6E89EE48542A138D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE30B862201B7D1E0088CFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE30B861201B7D1E0088CFEA /* Chatalon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE30B863201B7D1E0088CFEA /* Chatalon */ = {
+			isa = PBXGroup;
+			children = (
+				FE30B864201B7D1E0088CFEA /* AppDelegate.swift */,
+				FE30B866201B7D1E0088CFEA /* ViewController.swift */,
+				FEF63086202CA82A00953702 /* DaChat.swift */,
+				FEBC60382028EC2D007672A8 /* DbService.swift */,
+				FEF63084202CA45C00953702 /* ProfilesTable.swift */,
+				FE30B868201B7D1E0088CFEA /* Main.storyboard */,
+				FE30B86E201B7D1E0088CFEA /* Assets.xcassets */,
+				FE30B870201B7D1E0088CFEA /* LaunchScreen.storyboard */,
+				FE30B873201B7D1E0088CFEA /* Info.plist */,
+				FE30B879201B7DF50088CFEA /* GoogleService-Info.plist */,
+				FE30B86B201B7D1E0088CFEA /* Chatalon.xcdatamodeld */,
+			);
+			path = Chatalon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE30B860201B7D1E0088CFEA /* Chatalon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE30B876201B7D1E0088CFEA /* Build configuration list for PBXNativeTarget "Chatalon" */;
+			buildPhases = (
+				FE8EBFA23238DBB18A9B0025 /* [CP] Check Pods Manifest.lock */,
+				FE30B85D201B7D1E0088CFEA /* Sources */,
+				FE30B85E201B7D1E0088CFEA /* Frameworks */,
+				FE30B85F201B7D1E0088CFEA /* Resources */,
+				9FA0EF727890E0C156868F69 /* [CP] Embed Pods Frameworks */,
+				32C7AF95B8DA898A19C78335 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatalon;
+			productName = Chatalon;
+			productReference = FE30B861201B7D1E0088CFEA /* Chatalon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE30B859201B7D1E0088CFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Eilon;
+				TargetAttributes = {
+					FE30B860201B7D1E0088CFEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE30B85C201B7D1E0088CFEA /* Build configuration list for PBXProject "Chatalon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE30B858201B7D1E0088CFEA;
+			productRefGroup = FE30B862201B7D1E0088CFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE30B860201B7D1E0088CFEA /* Chatalon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE30B85F201B7D1E0088CFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30B872201B7D1E0088CFEA /* LaunchScreen.storyboard in Resources */,
+				FE30B87A201B7DF50088CFEA /* GoogleService-Info.plist in Resources */,
+				FE30B86F201B7D1E0088CFEA /* Assets.xcassets in Resources */,
+				FE30B86A201B7D1E0088CFEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C7AF95B8DA898A19C78335 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatalon/Pods-Chatalon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA0EF727890E0C156868F69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chatalon/Pods-Chatalon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatalon/Pods-Chatalon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8EBFA23238DBB18A9B0025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatalon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE30B85D201B7D1E0088CFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF63087202CA82A00953702 /* DaChat.swift in Sources */,
+				FEF63085202CA45C00953702 /* ProfilesTable.swift in Sources */,
+				FE30B867201B7D1E0088CFEA /* ViewController.swift in Sources */,
+				FE30B86D201B7D1E0088CFEA /* Chatalon.xcdatamodeld in Sources */,
+				FEBC60392028EC2D007672A8 /* DbService.swift in Sources */,
+				FE30B865201B7D1E0088CFEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE30B868201B7D1E0088CFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE30B869201B7D1E0088CFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE30B870201B7D1E0088CFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE30B871201B7D1E0088CFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE30B874201B7D1E0088CFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE30B875201B7D1E0088CFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE30B877201B7D1E0088CFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708DA72338674D054733DDED /* Pods-Chatalon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatalon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eilon.com.Chatalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE30B878201B7D1E0088CFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2BCC4DDCED7C968FE868E0 /* Pods-Chatalon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatalon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eilon.com.Chatalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE30B85C201B7D1E0088CFEA /* Build configuration list for PBXProject "Chatalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE30B874201B7D1E0088CFEA /* Debug */,
+				FE30B875201B7D1E0088CFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE30B876201B7D1E0088CFEA /* Build configuration list for PBXNativeTarget "Chatalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE30B877201B7D1E0088CFEA /* Debug */,
+				FE30B878201B7D1E0088CFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE30B86B201B7D1E0088CFEA /* Chatalon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE30B86C201B7D1E0088CFEA /* Chatalon.xcdatamodel */,
+			);
+			currentVersion = FE30B86C201B7D1E0088CFEA /* Chatalon.xcdatamodel */;
+			path = Chatalon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE30B859201B7D1E0088CFEA /* Project object */;
+}
